@@ -1,0 +1,23 @@
+{
+    "num-simulations": 20,
+    "num-days" : 365,
+    "parameters": {
+        "num-docks": 3,
+        "num-tugboats": 5,
+        "ship-arrival-time-lambda": 8,
+        "tugboat-help-to-dock-time-lambda": 2,
+        "tugboat-help-to-port-time-lambda": 1,
+        "tugboat-move-time-lambda": 0.25,
+        "ship-type-distribution": [
+            ["small", 0.25],
+            ["medium", 0.25],
+            ["large", 0.5]
+        ],
+        "ship-download-cargo-distribution": {
+            "small": [9, 1],
+            "medium": [12, 2],
+            "large": [18, 3]
+        },
+        "verbose": false
+    }
+}
